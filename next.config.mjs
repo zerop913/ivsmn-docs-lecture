@@ -4,4 +4,6 @@ const withNextra = nextra({
   search: { codeblocks: false },
 });
 
-export default withNextra({});
+export default withNextra({
+  output: "standalone",
+});

@@ -10,6 +10,12 @@ function unauthorized() {
 }
 
 export function proxy(request: NextRequest) {
+  // nginx performs Basic Auth in production and adds this header only after
+  // successful authentication. The app itself listens on localhost there.
+  if (request.headers.get("x-teacher-access") === "verified") {
+    return NextResponse.next();
+  }
+
   const password = process.env.TEACHER_ACCESS_PASSWORD;
   const username = process.env.TEACHER_ACCESS_USERNAME ?? "teacher";
 

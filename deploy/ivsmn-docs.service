@@ -8,6 +8,9 @@ WorkingDirectory=/opt/ivsmn-releases/current
 Environment=NODE_ENV=production
 Environment=HOSTNAME=127.0.0.1
 Environment=PORT=3000
+# Optional file with TEACHER_ACCESS_USERNAME and TEACHER_ACCESS_PASSWORD.
+# Without a password the private route stays closed.
+EnvironmentFile=-/etc/ivsmn/teacher.env
 ExecStart=/usr/bin/node server.js
 Restart=always
 RestartSec=5

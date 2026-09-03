@@ -6,9 +6,12 @@ import styles from "./page.module.css";
 
 type TeacherReaderProps = {
   sections: LectureSection[];
+  lectureNumber: string;
+  title: string;
+  sourceHref: string;
 };
 
-export default function TeacherReader({ sections }: TeacherReaderProps) {
+export default function TeacherReader({ sections, lectureNumber, title, sourceHref }: TeacherReaderProps) {
   const [activeId, setActiveId] = useState(sections[0].id);
   const titleRef = useRef<HTMLHeadingElement>(null);
   const activeIndex = sections.findIndex((section) => section.id === activeId);
@@ -26,10 +29,10 @@ export default function TeacherReader({ sections }: TeacherReaderProps) {
     <main className={styles.shell}>
       <header className={styles.header}>
         <div>
-          <h1>Как работает Web</h1>
-          <p className={styles.subtitle}>Лекция 01 · текст для ведения занятия</p>
+          <h1>{title}</h1>
+          <p className={styles.subtitle}>Лекция {lectureNumber} · текст для ведения занятия</p>
         </div>
-        <a className={styles.sourceLink} href="/web-development/lecture-01" target="_blank" rel="noreferrer">
+        <a className={styles.sourceLink} href={sourceHref} target="_blank" rel="noopener">
           Открыть материал для студентов
         </a>
       </header>

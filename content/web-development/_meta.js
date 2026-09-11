@@ -8,6 +8,10 @@ const pages = {
     title: "Лекция 02. HTML: структура документа и семантика",
     theme: { breadcrumb: false },
   },
+  "practice-01-html-student": {
+    title: "Практическая работа №1. Семантический многостраничный сайт",
+    theme: { breadcrumb: false },
+  },
 };
 
 export default pages;

@@ -8,6 +8,10 @@ const pages = {
     title: "Лекция 02. HTML: структура документа и семантика",
     theme: { breadcrumb: false },
   },
+  "lecture-03-css": {
+    title: "Лекция 03. CSS: правила, каскад и первый адаптивный интерфейс",
+    theme: { breadcrumb: false },
+  },
   "practice-01-html-student": {
     title: "Практическая работа №1. Семантический многостраничный сайт",
     theme: { breadcrumb: false },

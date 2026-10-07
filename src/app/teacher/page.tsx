@@ -27,6 +27,13 @@ export default function TeacherPage() {
               <small>10 разделов · от каркаса документа до форм и доступности</small>
             </Link>
           </li>
+          <li>
+            <Link href="/teacher/css">
+              <span>Лекция 03</span>
+              <strong>CSS: правила, каскад и первый адаптивный интерфейс</strong>
+              <small>9 разделов · от первого правила до Flexbox, Grid и проверки доступности</small>
+            </Link>
+          </li>
         </ol>
       </nav>
     </main>

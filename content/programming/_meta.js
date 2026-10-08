@@ -16,6 +16,10 @@ const pages = {
     title: "Практическая работа №1. Семантический многостраничный сайт",
     theme: { breadcrumb: false },
   },
+  "practice-02-css-student": {
+    title: "Практическая работа №2. Оформление многостраничного сайта с CSS",
+    theme: { breadcrumb: false },
+  },
 };
 
 export default pages;

@@ -24,6 +24,10 @@ const pages = {
     title: "Практическая работа №2. Оформление многостраничного сайта с CSS",
     theme: { breadcrumb: false },
   },
+  "practice-03-css-detective": {
+    title: "Практическая работа №3. Восстановление сайта «Двор»: HTML и CSS",
+    theme: { breadcrumb: false },
+  },
 };
 
 export default pages;

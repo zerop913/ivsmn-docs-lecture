@@ -1,0 +1,33 @@
+const pages = {
+  index: { title: "Проектирование и разработка интерфейсов пользователей", display: "hidden" },
+  "lecture-01": {
+    title: "Лекция 01. Как работает Web",
+    theme: { breadcrumb: false },
+  },
+  "lecture-02-html": {
+    title: "Лекция 02. HTML: структура документа и семантика",
+    theme: { breadcrumb: false },
+  },
+  "lecture-03-css": {
+    title: "Лекция 03. CSS: правила, каскад и первый адаптивный интерфейс",
+    theme: { breadcrumb: false },
+  },
+  "lecture-04-layout": {
+    title: "Лекция 04. CSS: построение интерфейсов — Flexbox, Grid и позиционирование",
+    theme: { breadcrumb: false },
+  },
+  "practice-01-html-student": {
+    title: "Практическая работа №1. Семантический многостраничный сайт",
+    theme: { breadcrumb: false },
+  },
+  "practice-02-css-student": {
+    title: "Практическая работа №2. Оформление многостраничного сайта с CSS",
+    theme: { breadcrumb: false },
+  },
+  "practice-03-css-detective": {
+    title: "Практическая работа №3. Восстановление сайта «Двор»: HTML и CSS",
+    theme: { breadcrumb: false },
+  },
+};
+
+export default pages;

@@ -9,7 +9,7 @@ export default function TeacherHtmlPage() {
       sections={lectureSections}
       lectureNumber="02"
       title="HTML: структура документа и семантика"
-      sourceHref="/web-development/lecture-02-html"
+      sourceHref="/web-development/web/lecture-02-html"
     />
   );
 }

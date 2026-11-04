@@ -9,7 +9,7 @@ export default function TeacherCssPage() {
       sections={lectureSections}
       lectureNumber="03"
       title="CSS: правила, каскад и первый адаптивный интерфейс"
-      sourceHref="/web-development/lecture-03-css"
+      sourceHref="/web-development/web/lecture-03-css"
     />
   );
 }

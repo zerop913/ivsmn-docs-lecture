@@ -9,7 +9,7 @@ export default function TeacherWebPage() {
       sections={lectureSections}
       lectureNumber="01"
       title="Как работает Web"
-      sourceHref="/web-development/lecture-01"
+      sourceHref="/web-development/web/lecture-01"
     />
   );
 }
